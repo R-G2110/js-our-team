@@ -46,7 +46,7 @@ for( let member of team){
 //MILESTONE 2
 const card = document.querySelector('.team-members');
 for( let i = 0; i < team.length; i++){
-  card.innerHTML += `<div class="card card-member col-4 mx-1 my-1">
+  card.innerHTML += `<div class="card card-member col-4 mx-3 my-3">
                       <div class="card-body">
                         <div class="images">
                           <img src="img/${team[i].photo}" alt="${team[i].name}">
@@ -55,6 +55,7 @@ for( let i = 0; i < team.length; i++){
                           <h4 class="member-name">${team[i].name}</h4>
                           <span class="member-role">${team[i].role}</span>
                         </div>
+                        <div class="over-lay "></div>
                       </div>
                     </div>`
 }

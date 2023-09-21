@@ -1,17 +1,37 @@
+
+
 h1 {
 	margin-bottom: 20px;
 }
+
 img {
 	width: 100%;
 }
 
+.row>* {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .container-custom {
-	width: 60%;
+	width: 50%;
 	margin: 40px auto;
 }
 
+
 .card-member {
-	width: 32%;
+	width: 30%;
+	--bs-card-spacer-y: 0rem;
+	--bs-card-spacer-x: 0rem;
+	cursor: pointer;
+}
+
+.card-member:hover {
+	scale: 1.1;
+	border: 5px solid turquoise;
+	background-color: turquoise;
+	color: white;
+
 }
 
 .card-img {
