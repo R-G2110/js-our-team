@@ -1,0 +1,19 @@
+h1 {
+	margin-bottom: 20px;
+}
+img {
+	width: 100%;
+}
+
+.container-custom {
+	width: 60%;
+	margin: 40px auto;
+}
+
+.col {
+	width: calc(100% / 3);
+}
+
+.card-img {
+	width: 100%;
+}
