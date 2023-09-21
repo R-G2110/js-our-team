@@ -10,8 +10,8 @@ img {
 	margin: 40px auto;
 }
 
-.col {
-	width: calc(100% / 3);
+.card-member {
+	width: 32%;
 }
 
 .card-img {
