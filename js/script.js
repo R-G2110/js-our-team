@@ -55,7 +55,21 @@ for( let i = 0; i < team.length; i++){
                           <h4 class="member-name">${team[i].name}</h4>
                           <span class="member-role">${team[i].role}</span>
                         </div>
-                        <div class="over-lay "></div>
+                        <div class="over-lay ">
+                        <h6>Member Name:</h6>
+                        <h5>${team[i].name}</h5>
+                        <h6>Member Role:</h6>
+                        <h5>${team[i].role}</h5>
+                        <h6>Age:</h6>
+                        <h5>${randomIndex(25, 40)}</h5>
+                        </div>
                       </div>
                     </div>`
 }
+
+
+//genera un numero random
+function randomIndex(min, max){
+	result = Math.ceil(Math.random() * (max - min)+min);
+	return result;
+};

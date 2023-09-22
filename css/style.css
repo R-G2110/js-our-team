@@ -1,6 +1,7 @@
 
 
-h1 {
+h1,
+h5 {
 	margin-bottom: 20px;
 }
 
@@ -24,14 +25,32 @@ img {
 	--bs-card-spacer-y: 0rem;
 	--bs-card-spacer-x: 0rem;
 	cursor: pointer;
+	position: relative;
 }
 
 .card-member:hover {
 	scale: 1.1;
 	border: 5px solid turquoise;
-	background-color: turquoise;
-	color: white;
+	/* background-color: turquoise; */
+	/*color: white; */
 
+}
+.card-member:hover .over-lay{
+	display: block;
+
+}
+
+.over-lay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .7);
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: lightgrey;
+	text-align: left;
+	padding: 15px;
 }
 
 .card-img {
